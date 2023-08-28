@@ -18,13 +18,13 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:middle">
               <p style="text-align:center">
-                <name>Jiazhao Zhang</name>
+                <name>Jiazhao Zhang | 张嘉曌</name>
               </p>
-              <p>I am a Ph.D. student at Peking University, advised by Prof. <a href="https://hughw19.github.io/">He Wang</a> since 2022. Before this, I obtained my M.S. degree and B.Eng. degree at NUDT and Shandong University, respectively. During my master's, I was fortunate to be supervised by Prof. <a href="http://kevinkaixu.net/index.html">Kai Xu</a> and work closely with Prof. <a href="http://www.zhuchenyang.net/">Chenyang Zhu</a>.
+              <p>I am a Ph.D. student at Peking University, advised by Prof. <a href="https://hughw19.github.io/">He Wang</a> since 2022. Prior to this, I obtained my M.S. degree and B.Eng. degree from NUDT and Shandong University, respectively. During my master's studies, I was fortunate to be supervised by Prof. <a href="http://kevinkaixu.net/index.html">Kai Xu</a> and had the opportunity to work closely with Prof. <a href="http://www.zhuchenyang.net/">Chenyang Zhu</a>.
               </p>
 
               <p>
-                I'm interested in indoor scene reconstruction, understanding and interaction. More specifically, I work on building robust and practical systems for domestic robots. 
+                I'm interested in indoor scene reconstruction, understanding and interaction. More specifically, I work on building robust and practical systems for home robots. 
               </p>
               
               
@@ -47,12 +47,57 @@
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
-              <p> Much of my research is about odometry, dense fusion and robotic navigation. </p>
+              <p> *: equal contribution; <sup>†</sup>: corresponding author(s) </p>
 
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="siga_mips_stop()" onmouseover="siga_mips_start()" >
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='siga_mips_image'>
+                <img src="images/siga_mips/siga_mips.gif" width="200" height="120">
+                </div>
+                <img src='images/siga_mips/siga_mips.png' width="200" height="120">
+              </div>
+              <script type="text/javascript">
+                function siga_mips_start() {
+                  document.getElementById('siga_mips_image').style.opacity = "1";
+                }
+
+                function siga_mips_stop() {
+                  document.getElementById('siga_mips_image').style.opacity = "0";
+                }
+                siga_mips_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+              <papertitle>MIPS-Fusion: Multi-Implicit-Submaps for Scalable and Robust Online Neural RGB-D Reconstruction</papertitle>
+              <!-- </a> -->
+              <br>
+              Yijie Tang*, <strong>Jiazhao Zhang*</strong>, Zhinan Yu, He Wang, Kai Xu<sup>†</sup>
+              <br>
+              <em>ACM Transactions on Graphics (SIGGRAPH Asia 2023). Conditionally accepted</em>
+              <br>
+              Paper / Code
+              <!-- <a href="https://dreamfusion3d.github.io/">project page</a> -->
+              <!-- / -->
+              <!-- <a>Paper</a> -->
+              
+              <!-- <a>Code</a> -->
+              
+              <!-- <a href="https://pku-epic.github.io/3D-Aware-ObjectNav/">Webpage</a> -->
+              <p></p>
+              <p>
+                We introduce MIPS-Fusion, a robust and scalable online RGB-D reconstruction method based on a novel neural implicit representation – multi-implicit-submap.
+              </p>
+            </td>
+          </tr>
+
+
 
 
           <tr onmouseout="cvpr_3dobjectnav_stop()" onmouseover="cvpr_3dobjectnav_start()" >
@@ -79,7 +124,7 @@
               <papertitle>3D-Aware Object Goal Navigation via Simultaneous Exploration and Identification</papertitle>
               <!-- </a> -->
               <br>
-              <strong>Jiazhao Zhang*</strong> , Liu Dai*, Fanpeng Meng, Qingnan Fan, Xuelin Chen, Kai Xu, He Wang
+              <strong>Jiazhao Zhang*</strong> , Liu Dai*, Fanpeng Meng, Qingnan Fan, Xuelin Chen, Kai Xu, He Wang<sup>†</sup>
               <br>
               <em>CVPR 2023</em>
               <br>
@@ -91,9 +136,10 @@
               /
               <a href="https://pku-epic.github.io/3D-Aware-ObjectNav/">Webpage</a>
               <p></p>
-              <!-- <p>
-                To realize efficient random optimization in the 18D state space of IMU tracking, we propose to identify and sample particles from active subspace.
-              </p> -->
+              <p>
+                We propose a framework for the challenging 3D-aware ObjectNav based on two straightforward sub-policies, namely corner-guided exploration policy and category-aware identification policy.
+
+              </p>
             </td>
           </tr>
 
@@ -126,7 +172,7 @@
               <!-- </a> -->
               <br>
               <a href="https://daiqy.github.io/index.html">Qiyu Dai*</a>,
-              Yan Zhu*, Yiran Geng, Ciyu Ruan, <strong>Jiazhao Zhang</strong>, He Wang
+              Yan Zhu*, Yiran Geng, Ciyu Ruan, <strong>Jiazhao Zhang</strong>, He Wang<sup>†</sup>
               <br>
               <em>ICRA 2023</em>
               <br>
@@ -178,7 +224,7 @@
               <a href="https://yijiaweng.github.io/">Yijiang Weng</a>,
               <a href="https://ericyi.github.io/">Li Yi</a>,
               <a href="https://www.cs.columbia.edu/~shurans/">Shuran Song</a>,
-              <a href="https://hughw19.github.io/">He Wang</a>
+              <a href="https://hughw19.github.io/">He Wang<sup>†</sup></a>
               <br>
               <em>AAAI 2023 (Oral Presentation)</em>
               <br>
@@ -224,7 +270,7 @@
               <br>
               <strong>Jiazhao Zhang</strong>, Yijie Tang,
               <a href="https://hughw19.github.io/">He Wang</a>,
-              <a href="http://kevinkaixu.net/index.html">Kai Xu</a>
+              <a href="http://kevinkaixu.net/index.html">Kai Xu<sup>†</sup></a>
               <br>
               <em>Transactions on Robotics (T-RO 2022)</em>
               <br>
@@ -267,7 +313,7 @@
               <strong>Jiazhao Zhang</strong>,
               <a href="http://www.zhuchenyang.net/">Chenyang Zhu</a>,
               Lintao Zheng,
-              <a href="http://kevinkaixu.net/index.html">Kai Xu</a>
+              <a href="http://kevinkaixu.net/index.html">Kai Xu<sup>†</sup></a>
               <br>
               <em>ACM Transactions on Graphics (SIGGRAPH 2021)</em>
               <br>
@@ -310,7 +356,7 @@
               <strong>Jiazhao Zhang*</strong>,
               <a href="http://www.zhuchenyang.net/">Chenyang Zhu*</a>,
               Lintao Zheng,
-              <a href="http://kevinkaixu.net/index.html">Kai Xu</a>
+              <a href="http://kevinkaixu.net/index.html">Kai Xu<sup>†</sup></a>
               <br>
               <em>CVPR 2020</em>
               <br>
@@ -350,7 +396,7 @@
               <papertitle>Active Scene Understanding via Online Semantic Reconstruction</papertitle>
               <!-- </a> -->
               <br>
-              Lintao Zheng, Chenyang Zhu, <strong>Jiazhao Zhang</strong>, Hang Zhao, Hui Huang, Matthias Niessner, Kai Xu
+              Lintao Zheng, Chenyang Zhu, <strong>Jiazhao Zhang</strong>, Hang Zhao, Hui Huang, Matthias Niessner, Kai Xu<sup>†</sup>
               <br>
               <em>Computer Graphics Forum (Pacific Graphics 2019)</em>
               <br>
