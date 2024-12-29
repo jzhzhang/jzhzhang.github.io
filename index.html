@@ -1,6 +1,81 @@
 <!DOCTYPE HTML>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+  <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300);
+      /* Color scheme stolen from Sergey Karayev */
+      a {
+      /*color: #b60a1c;*/
+      color: #1772d0;
+      /*color: #bd0a36;*/
+      text-decoration:none;
+      }
+      a:focus, a:hover {
+      color: #f09228;
+      text-decoration:none;
+      }
+      body,td,th,tr,p,a {
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      }
+      strong {
+      font-family: 'Roboto', sans-serif;
+      /*font-family: 'Lato', Verdana, Helvetica, sans-serif;*/
+      /*font-family: 'Avenir Next';*/
+      font-size: 15px;
+      font-weight: 400;
+      }
+      heading {
+      /*font-family: 'Lato', Verdana, Helvetica, sans-serif;*/
+      font-family: 'Roboto', sans-serif;
+      /*font-family: 'Avenir Next';*/
+      /*src: url("./fonts/Roboto_Mono_for_Powerline.ttf");*/
+      font-size: 24px;
+      font-weight: 400;
+      }
+      papertitle {
+      /*font-family: 'Lato', Verdana, Helvetica, sans-serif;*/
+      font-family: 'Roboto', sans-serif;
+      /*font-family: 'Avenir Next';*/
+      /*src: url("./fonts/Roboto_Mono_for_Powerline.ttf");*/
+      font-size: 15px;
+      font-weight:500;
+      }
+      name {
+      /*font-family: 'Lato', Verdana, Helvetica, sans-serif;*/
+      font-family: 'Roboto', sans-serif;
+      /*font-family: 'Avenir Next';*/
+      font-weight: 400;
+      font-size: 32px;
+      }
+      .one
+      {
+      width: 160px;
+      height: 140px;
+      position: relative;
+      }
+      .two
+      {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+      }
+      .fade {
+       transition: opacity .2s ease-in-out;
+       -moz-transition: opacity .2s ease-in-out;
+       -webkit-transition: opacity .2s ease-in-out;
+      }
+      span.highlight {
+          background-color: #ffffd0;
+      }
+    </style>
+
+
+
   <title>Jiazhao Zhang</title>
   
   <meta name="author" content="Jiazhao Zhang | 张嘉曌">
@@ -9,6 +84,9 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>"> -->
 </head>
+
+
+
 
 <!-- <style>
   pl {
@@ -80,9 +158,9 @@
               </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+              <a href="https://pku-epic.github.io/Uni-NaVid/">
               <papertitle>Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks</papertitle>
-              <!-- </a> -->
+              </a>
               <br>
               <strong>Jiazhao Zhang</strong>,       Kunyu Wang      ,Shaoan Wang       ,Minghan Li      ,Haoran Liu
               ,Songlin Wei, Zhongyuan Wang    ,Zhizheng Zhang<sup>†</sup>      ,He Wang<sup>†</sup>
@@ -94,7 +172,7 @@
               <a href="https://arxiv.org/pdf/2412.06224">Paper</a>
               /
               <!-- <a href="https://github.com/yjtang249/MIPSFusion">Code</a> -->
-              <a href="https://pku-epic.github.io/Uni-NaVid/">Webpage</a>
+              <a href="https://pku-epic.github.io/Uni-NaVid/">Project page</a>
               <p></p>
               <p>
                 We present Uni-NaVid, the first video-based vision-language-action (VLA) model designed to unify diverse embodied navigation tasks and enable seamless navigation for mixed long-horizon tasks in unseen real-world environments.
@@ -127,9 +205,9 @@
               </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+              <a href="https://pku-epic.github.io/NaVid/">
               <papertitle>NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation</papertitle>
-              <!-- </a> -->
+              </a>
               <br>
               <strong>Jiazhao Zhang</strong>*,       Kunyu Wang*      ,Rongtao Xu*       ,Gengze Zhou       ,Yicong Hong
               ,Xiaomeng Fang      ,Qi Wu    ,Zhizheng Zhang<sup>†</sup>      ,He Wang<sup>†</sup>
@@ -140,8 +218,9 @@
               <br>
               <a href="https://arxiv.org/abs/2402.15852.pdf">Paper</a>
               /
-              <!-- <a href="https://github.com/yjtang249/MIPSFusion">Code</a> -->
-              <a href="https://pku-epic.github.io/NaVid/">Webpage</a>
+              <a href="https://github.com/jzhzhang/NaVid-VLN-CE">Code</a>
+              /
+              <a href="https://pku-epic.github.io/NaVid/">Project page</a>
               <p></p>
               <p>
                 NaVid makes the first endeavour to showcase the capability of VLMs to achieve state-of-the-art level navigation performance without any maps, odometer and depth inputs. Following human instruction, NaVid only requires an on-the-fly video stream from a monocular RGB camera equipped on the robot to output the next-step action. 
@@ -151,19 +230,44 @@
 
 
 
+          <tr onmouseout="open6DOR_stop()" onmouseover="open6DOR_start()" >
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='open6DOR_image'>
+                <img src="images/open6DOR/open6DOR.gif" width="230" height="165">
+                </div>
+                <img src='images/open6DOR/open6DOR.jpg' width="230" height="165">
+              </div>
+              <script type="text/javascript">
+                function open6DOR_start() {
+                  document.getElementById('open6DOR_image').style.opacity = "1";
+                }
+                function open6DOR_stop() {
+                  document.getElementById('open6DOR_image').style.opacity = "0";
+                }
+                open6DOR_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://pku-epic.github.io/Open6DOR/">
+              <papertitle>Open6DOR: Benchmarking Open-instruction 6-DoF Object Rearrangement and A VLM-based Approach</papertitle>
+              </a>
+              <br>
 
+              Yufei Ding*, Haoran Geng*, Chaoyi Xu, Xiaomeng Fang, <strong>Jiazhao Zhang</strong>, Songlin Wei, Qiyu Dai, Zhizheng Zhang, He Wang<sup>†</sup>
 
-
-
-
-
-
-
-
-
-
-
-
+              <br>
+              <em><b>IROS 2024</b></em>
+              <br>
+              <a href="https://github.com/Selina2023/Open6DOR">Code</a>
+              /
+              <a href="https://pku-epic.github.io/Open6DOR/">Project page</a>
+              <p></p>
+              <p>
+                We present Open6DOR, a challenging and comprehensive benchmark for open-instruction 6-DoF object rearrangement tasks. Following this, we propose a zero-shot method, Open6DORGPT, which achieves SOTA performance and proves effective in demanding simulation environments and real-world scenarios.
+              </p>
+            </td>
+          </tr>
 
 
           <tr onmouseout="cvpr_mc_stop()" onmouseover="cvpr_mc_start()" >
@@ -185,9 +289,9 @@
               </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+              <a href="https://arxiv.org/abs/2401.07745.pdf">
               <papertitle>MaskClustering: View Consensus based Mask Graph Clustering for Open-Vocabulary 3D Instance Segmentation</papertitle>
-              <!-- </a> -->
+              </a>
               <br>
               Mi Yan, <strong>Jiazhao Zhang</strong>, Yan Zhu, He Wang<sup>†</sup>
               <br>
@@ -198,7 +302,7 @@
               <a href="https://github.com/PKU-EPIC/MaskClustering">Code</a>
               /
               <!-- <a href="https://github.com/yjtang249/MIPSFusion">Code</a> -->
-              <a href="https://pku-epic.github.io/MaskClustering/">Webpage</a>
+              <a href="https://pku-epic.github.io/MaskClustering/">Project page</a>
               <p></p>
               <p>
                 We propose a robust zero-shot 3D instance segmentation method that leverages the 3D view consensus of 2D candidate masks. Our method can integrate with a 2D visual foundation model (e.g., CLIP) to achieve open-vocabulary 3D instance segmentation.
@@ -227,10 +331,10 @@
               </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+              <a href="https://pku-epic.github.io/GAMMA/">
               <papertitle>GAMMA: Graspability-Aware Mobile MAnipulation
               Policy Learning based on Online Grasping Pose Fusion</papertitle>
-              <!-- </a> -->
+              </a>
               <br>
               <strong>Jiazhao Zhang*</strong>, Nandiraju Gireesh*, Jilong Wang, Xiaomeng Fang, Chaoyi Xu,  Weiguang Chen,  Liu Dai, He Wang<sup>†</sup>
               <br>
@@ -241,7 +345,7 @@
               <a href="https://github.com/user432/gamma">Code</a>
               /
               <!-- <a href="https://github.com/yjtang249/MIPSFusion">Code</a> -->
-              <a href="https://pku-epic.github.io/GAMMA/">Webpage</a>
+              <a href="https://pku-epic.github.io/GAMMA/">Project page</a>
               <p></p>
               <p>
                 We propose a graspability-aware mobile manipulation approach powered by an online grasping pose fusion framework that enables a temporally consistent grasping observation.
@@ -271,9 +375,9 @@
               </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+              <a href="https://arxiv.org/pdf/2308.08741.pdf">
               <papertitle>MIPS-Fusion: Multi-Implicit-Submaps for Scalable and Robust Online Neural RGB-D Reconstruction</papertitle>
-              <!-- </a> -->
+              </a>
               <br>
               Yijie Tang*, <strong>Jiazhao Zhang*</strong>, Zhinan Yu, He Wang, Kai Xu<sup>†</sup>
               <br>
@@ -312,9 +416,9 @@
               </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+              <a href="https://github.com/jzhzhang/3DAwareNav">
               <papertitle>3D-Aware Object Goal Navigation via Simultaneous Exploration and Identification</papertitle>
-              <!-- </a> -->
+              </a>
               <br>
               <strong>Jiazhao Zhang*</strong> , Liu Dai*, Fanpeng Meng, Qingnan Fan, Xuelin Chen, Kai Xu, He Wang<sup>†</sup>
               <br>
@@ -326,7 +430,7 @@
               /
               <a href="https://github.com/jzhzhang/3DAwareNav">Code</a>
               /
-              <a href="https://pku-epic.github.io/3D-Aware-ObjectNav/">Webpage</a>
+              <a href="https://pku-epic.github.io/3D-Aware-ObjectNav/">Project page</a>
               <p></p>
               <p>
                 We propose a framework for the challenging 3D-aware ObjectNav based on two straightforward sub-policies, namely corner-guided exploration policy and category-aware identification policy.
@@ -359,9 +463,9 @@
               </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+              <a href="https://pku-epic.github.io/GraspNeRF/">
               <papertitle>GraspNeRF: Multiview-based 6-DoF Grasp Detection for Transparent and Specular Objects Using Generalizable NeRF</papertitle>
-              <!-- </a> -->
+              </a>
               <br>
               <a href="https://daiqy.github.io/index.html">Qiyu Dai*</a>,
               Yan Zhu*, Yiran Geng, Ciyu Ruan, <strong>Jiazhao Zhang</strong>, He Wang<sup>†</sup>
@@ -374,7 +478,7 @@
               /
               <a href="https://github.com/PKU-EPIC/GraspNeRF">Code & Data</a> 
               /
-              <a href="https://pku-epic.github.io/GraspNeRF/">Webpage</a>
+              <a href="https://pku-epic.github.io/GraspNeRF/">Project page</a>
               <p></p>
               <!-- <p>
                 To realize efficient random optimization in the 18D state space of IMU tracking, we propose to identify and sample particles from active subspace.
@@ -404,9 +508,9 @@
               </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+              <a href="https://pku-epic.github.io/HOtrack/">
               <papertitle>Tracking and Reconstructing Hand Object Interactions from Point Cloud Sequences in the Wild</papertitle>
-              <!-- </a> -->
+              </a>
               <br>
               <a href="https://jychen18.github.io/">Jiayi Chen*</a>,
               <a href="https://miyandoris.github.io/">Mi Yan*</a>,
@@ -426,7 +530,7 @@
               /
               <a href="https://github.com/PKU-EPIC/HOTrack">Code & Data</a>
               /
-              <a href="https://pku-epic.github.io/HOtrack/">Webpage</a>
+              <a href="https://pku-epic.github.io/HOtrack/">Project page</a>
               <p></p>
               <!-- <p>
                 To realize efficient random optimization in the 18D state space of IMU tracking, we propose to identify and sample particles from active subspace.
@@ -456,9 +560,9 @@
               </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+              <a href="https://ieeexplore.ieee.org/document/9915552">
               <papertitle>ASRO-DIO: Active Subspace Random Optimization Based Depth Inertial Odometry</papertitle>
-              <!-- </a> -->
+              </a>
               <br>
               <strong>Jiazhao Zhang</strong>, Yijie Tang,
               <a href="https://hughw19.github.io/">He Wang</a>,
@@ -498,9 +602,9 @@
               </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+              <a href="https://arxiv.org/pdf/2105.05600.pdf">
               <papertitle>ROSEFusion: Random Optimization for Online Dense Reconstruction under Fast Camera Motion</papertitle>
-              <!-- </a> -->
+              </a>
               <br>
               <strong>Jiazhao Zhang</strong>,
               <a href="http://www.zhuchenyang.net/">Chenyang Zhu</a>,
@@ -541,9 +645,9 @@
               </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+              <a href="https://arxiv.org/pdf/2003.06233">
               <papertitle>Fusion-Aware Point Convolution for Online Semantic 3D Scene Segmentation</papertitle>
-              <!-- </a> -->
+              </a>
               <br>
               <strong>Jiazhao Zhang*</strong>,
               <a href="http://www.zhuchenyang.net/">Chenyang Zhu*</a>,
@@ -584,9 +688,9 @@
               </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+              <a href="https://arxiv.org/pdf/1906.07409">
               <papertitle>Active Scene Understanding via Online Semantic Reconstruction</papertitle>
-              <!-- </a> -->
+              </a>
               <br>
               Lintao Zheng, Chenyang Zhu, <strong>Jiazhao Zhang</strong>, Hang Zhao, Hui Huang, Matthias Niessner, Kai Xu<sup>†</sup>
               <br>
@@ -612,7 +716,7 @@
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
-              <heading>Teaching</heading>
+              <heading>Academic Services</heading>
             </td>
           </tr>
         </tbody></table>
@@ -622,9 +726,8 @@
             <!-- <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td> -->
 
             <td width="75%" valign="center">
-              Peking University, Teaching Assistant, Computer Vision, Spring 2022 <br>
-              NUDT, Teaching Assistant, Computer Vision, Spring 2021 <br>
-              NUDT, Teaching Assistant, Computer Vision, Spring  2020
+              Conference Reviewer: CVPR, ICLR, ICRA <br>
+              Journal Reviewer: TPAMI, TIP, RA-L
             </td>
           </tr>
 
