@@ -140,6 +140,49 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
+          <tr onmouseout="navfom_stop()" onmouseover="navfom_start()" >
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='navfom_image'>
+                <img src="images/navfom/navfom.gif" width="230" height="165">
+                </div>
+                <img src='images/navfom/navfom.png' width="230" height="165">
+              </div>
+              <script type="text/javascript">
+                function navfom_start() {
+                  document.getElementById('navfom_image').style.opacity = "1";
+                }
+                function navfom_stop() {
+                  document.getElementById('navfom_image').style.opacity = "0";
+                }
+                navfom_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://pku-epic.github.io/Uni-NaVid/">
+              <papertitle>Embodied Navigation Foundation Model</papertitle>
+              </a>
+              <br>
+                <b style="font-weight: bold;">Jiazhao Zhang*</b>, Anqi Li*, Yunpeng Qi*, Minghan Li*, Jiahang Liu, Shaoan Wang, Haoran Liu, Gengze Zhou, Yuze Wu, Xingxing Li, Yuxin Fan, Wenjun Li, Zhibo Chen, Fei Gao, Qi Wu, Zhizheng Zhang†, He Wang†
+              <br>
+              <em><b style="font-weight: bold;">Arxiv Preprint</b></em>
+              <br>
+              <a href="https://arxiv.org/abs/2509.12129">Paper</a>
+              /
+              <!-- <a href="https://github.com/wsakobe/TrackVLA">Code</a> -->
+              <!-- / -->
+              <a href="https://pku-epic.github.io/NavFoM-Web/">Project page</a>
+              <p></p>
+              <p>
+                We introduce a cross-embodiment and cross-task Navigation Foundation Model (NavFoM), trained on eight million navigation samples that encompass quadrupeds, drones, wheeled robots, and vehicles, and spanning diverse tasks such as vision-and-language navigation, object searching, target tracking, and autonomous driving.
+              </p>
+            </td>
+          </tr>
+
+
+
+
           <tr onmouseout="trackvla_stop()" onmouseover="trackvla_start()" >
             <td style="padding:20px;width:30%;vertical-align:middle">
               <div class="one">
@@ -164,9 +207,7 @@
               </a>
               <br>
               <em>Shaoan Wang*, <b style="font-weight: bold;">Jiazhao Zhang*</b></em>, Minghan Li, Jiahang Liu
-              , Anqi Li, Kui Wu, Fangwei Zhong, Junzhi Yu, Zhizheng Zhang<sup>†</sup>      ,He Wang<sup>†</sup>
-
-
+              , Anqi Li, Kui Wu, Fangwei Zhong, Junzhi Yu, Zhizheng Zhang<sup>†</sup>, He Wang<sup>†</sup>
               <br>
               <em><b style="font-weight: bold;">CoRL 2025</b></em>
               <br>
