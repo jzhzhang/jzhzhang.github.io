@@ -181,6 +181,50 @@
           </tr>
 
 
+          <tr onmouseout="mm_nav_stop()" onmouseover="mm_nav_start()" >
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mm_nav_image'>
+                <img src="images/mm_nav/mm_nav.gif" width="230" height="165">
+                </div>
+                <img src='images/mm_nav/mm_nav.png' width="230" height="165">
+              </div>
+              <script type="text/javascript">
+                function mm_nav_start() {
+                  document.getElementById('mm_nav_image').style.opacity = "1";
+                }
+                function mm_nav_stop() {
+                  document.getElementById('mm_nav_image').style.opacity = "0";
+                }
+                mm_nav_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://pku-epic.github.io/MM-Nav-Web/">
+              <papertitle>MM-Nav: Multi-View VLA Model for Robust Visual Navigation via Multi-Expert Learning</papertitle>
+              </a>
+              <br>
+                Tianyu Xu*, Jiawei Chen*, <b style="font-weight: bold;">Jiazhao Zhang*</b>, Wenyao Zhang, Zekun Qi, Minghan Li, Zhizheng Zhang†, He Wang†
+              <br>
+              <em><b style="font-weight: bold;">Arxiv Preprint</b></em>
+              <br>
+              <a href="https://arxiv.org/pdf/2510.03142">Paper</a>
+              /
+              <!-- <a href="https://github.com/wsakobe/TrackVLA">Code</a> -->
+              <!-- / -->
+              <a href="https://pku-epic.github.io/MM-Nav-Web/">Project page</a>
+              <p></p>
+              <p>
+                We present MM-Nav, a multi-view Vision-Language-Action (VLA) system with 360° observation, built upon pretrained large language models and visual foundation models. The model is trained on large-scale expert navigation data collected from three reinforcement learning (RL) agents. 
+              </p>
+            </td>
+          </tr>
+
+
+
+
+
+
 
 
           <tr onmouseout="trackvla_stop()" onmouseover="trackvla_start()" >
