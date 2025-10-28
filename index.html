@@ -193,6 +193,11 @@
             </td>
           </tr>
 
+
+
+
+
+
           <tr onmouseout="trackvla_plus_plus_stop()" onmouseover="trackvla_plus_plus_start()" >
             <td style="padding:20px;width:30%;vertical-align:middle">
               <div class="one">
@@ -231,6 +236,48 @@
               </p>
             </td>
           </tr>
+
+
+          <tr onmouseout="urbanvla_stop()" onmouseover="urbanvla_start()" >
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='urbanvla_image'>
+                <img src="images/urbanvla/urbanvla.gif" width="230" height="165">
+                </div>
+                <img src='images/urbanvla/urbanvla.png' width="230" height="165">
+              </div>
+              <script type="text/javascript">
+                function urbanvla_start() {
+                  document.getElementById('urbanvla_image').style.opacity = "1";
+                }
+                function urbanvla_stop() {
+                  document.getElementById('urbanvla_image').style.opacity = "0";
+                }
+                urbanvla_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://pku-epic.github.io/UrbanVLA-Web/">
+              <papertitle>UrbanVLA: A Vision-Language-Action Model for Urban Micromobility</papertitle>
+              </a>
+              <br>
+                Anqi Li*, Zhiyong Wang*, <b style="font-weight: bold;">Jiazhao Zhang*</b>, Minghan Li, Zhibo Chen, Zhizheng Zhang†, He Wang†
+              <br>
+              <em><b style="font-weight: bold;">Arxiv Preprint</b></em>
+              <br>
+              <a href="https://arxiv.org/pdf/2510.23576">Paper</a>
+              /
+              <!-- <a href="https://github.com/wsakobe/TrackVLA">Code</a> -->
+              <!-- / -->
+              <a href="https://pku-epic.github.io/UrbanVLA-Web/">Project page</a>
+              <p></p>
+              <p>
+                UrbanVLA is a route-conditioned Vision-Language-Action model for urban micromobility. It aligns noisy navigation-tool routes with visual observations to enable scalable, long-horizon navigation. Trained via a two stage pipeline including SFT and RFT, UrbanVLA outperforms baselines by over 55% on MetaUrban and achieves robust real-world navigation across 500m+ routes.
+              </p>
+            </td>
+          </tr>
+
+
 
 
           <tr onmouseout="mm_nav_stop()" onmouseover="mm_nav_start()" >
