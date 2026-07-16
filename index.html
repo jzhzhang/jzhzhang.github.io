@@ -46,7 +46,7 @@
       /*font-family: 'Lato', Verdana, Helvetica, sans-serif;*/
       font-family: 'Roboto', sans-serif;
       /*font-family: 'Avenir Next';*/
-      font-weight: 400;
+      font-weight: 700;
       font-size: 32px;
       }
       .one
@@ -105,11 +105,11 @@
               <p style="text-align:center">
                 <name>Jiazhao Zhang | 张嘉曌</name>
               </p>
-              <p>I am a Ph.D. student at the <a  href="https://cfcs.pku.edu.cn/english/"> Center on Frontiers of Computing Studies </a> at Peking University, where I have been advised by Prof. <a href="https://hughw19.github.io/">He Wang</a> since 2022. Prior to this, I earned my M.S. degree from NUDT, under the supervision of Prof. <a href="http://kevinkaixu.net/index.html">Kai Xu</a>. I received my B.Eng. degree from Shandong University.
+              <p>I received my Ph.D. in Computer Science from the <a href="https://cfcs.pku.edu.cn/english/">Center on Frontiers of Computing Studies</a> at Peking University in 2026, advised by Prof. <a href="https://hughw19.github.io/">He Wang</a>. Prior to that, I earned my M.S. from NUDT in 2022 under the supervision of Prof. <a href="http://kevinkaixu.net/index.html">Kai Xu</a>, and my B.Eng. from Shandong University in 2019.
               </p>
 
               <p>
-                My research goal is to develop intelligent and practical robots to enhance people's daily lives. My current research focuses on building intelligent navigation robots based on vision-language models. I am also interested in scene reconstruction and understanding.
+                My research focuses on embodied intelligence and vision-language models. I am particularly interested in integrating foundation models with agentic architectures to develop robots that can act reliably in open-world environments, with the long-term goal of improving people's everyday lives.
               </p>
               
               
@@ -141,7 +141,7 @@
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
-              <p> [2025/10/16]  <a href="https://pku-epic.github.io/Uni-NaVid/">Uni-NaVid</a> has been released! Check the <a href="https://github.com/jzhzhang/Uni-NaVid">VLA model (finetuning)</a> and <a href="https://github.com/jzhzhang/NaVid-VLN-CE">Evaluation</a> code! </p>
+              <!-- <p> [2025/10/16]  <a href="https://pku-epic.github.io/Uni-NaVid/">Uni-NaVid</a> has been released! Check the <a href="https://github.com/jzhzhang/Uni-NaVid">VLA model (finetuning)</a> and <a href="https://github.com/jzhzhang/NaVid-VLN-CE">Evaluation</a> code! </p> -->
               <p> *: equal contribution; <sup>†</sup>: corresponding author(s) </p>
             </td>
           </tr>
@@ -151,88 +151,216 @@
 
 
         </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table class="publication-list" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-          <tr onmouseout="navfom_stop()" onmouseover="navfom_start()" >
+          <tr>
             <td style="padding:20px;width:30%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='navfom_image'>
-                <img src="images/navfom/navfom.gif" width="230" height="165">
-                </div>
-                <img src='images/navfom/navfom.png' width="230" height="165">
+              <div class="publication-visual publication-visual--stack">
+                <img class="publication-image" src="images/qwen_robotnav/teaser.png" alt="Qwen-RobotNav teaser" loading="lazy">
+                <img class="publication-image" src="images/qwen_robotnav/agent.png" alt="Qwen-RobotNav agentic navigation system" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function navfom_start() {
-                  document.getElementById('navfom_image').style.opacity = "1";
-                }
-                function navfom_stop() {
-                  document.getElementById('navfom_image').style.opacity = "0";
-                }
-                navfom_stop()
-              </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <a href="https://pku-epic.github.io/NavFoM-Web/">
-              <papertitle>Embodied Navigation Foundation Model</papertitle>
+              <a href="https://qwen.ai/blog?id=qwen-robotnav">
+                <papertitle>Qwen-RobotNav Technical Report: A Scalable Navigation Model Designed for an Agentic Navigation System</papertitle>
               </a>
               <br>
-                <b style="font-weight: bold;">Jiazhao Zhang*</b>, Anqi Li*, Yunpeng Qi*, Minghan Li*, Jiahang Liu, Shaoan Wang, Haoran Liu, Gengze Zhou, Yuze Wu, Xingxing Li, Yuxin Fan, Wenjun Li, Zhibo Chen, Fei Gao, Qi Wu, Zhizheng Zhang†, He Wang†
+              <b style="font-weight: bold;">Jiazhao Zhang*</b>, <a class="author-link" href="https://gengzezhou.github.io/">Gengze Zhou</a>*, Hale Yin*, Yiyang Huang*, Zixing Lei*, <a class="author-link" href="https://pqh22.github.io/">Qihang Peng</a>*, <a class="author-link" href="https://yhqpkueecs.github.io/">Haoqi Yuan</a>, Jie Zhang, Xudong Guo, Xiaoyue Chen, An Yang, Fei Huang, Junyang Lin, <a class="author-link" href="https://liudayiheng.github.io/">Dayiheng Liu</a>, Jingren Zhou, Zhuoyuan Yu, Jingyang Fan, <a class="author-link" href="https://liang-zx.github.io/">Zhixuan Liang</a>, Pei Lin, Ye Wang, Anzhe Chen, Kun Yan, Xiao Xu, Jiahao Li, Lulu Hu, Minying Zhang, Shurui Li, Wenhu Xiao, Shuai Bai, Xuancheng Ren, Chenxu Lv, <a class="author-link" href="https://chenfei-wu.github.io/">Chenfei Wu</a>, <a class="author-link" href="https://xionghuichen.github.io/">Xiong-Hui Chen</a>
               <br>
-              <em><b style="font-weight: bold;">ICLR 2026</b></em>
+              <em><b style="font-weight: bold;">Technical Report, 2026</b></em>
               <br>
-              <a href="https://arxiv.org/abs/2509.12129">Paper</a>
+              <a href="https://arxiv.org/abs/2606.18112">Paper</a>
               /
-              <!-- <a href="https://github.com/wsakobe/TrackVLA">Code</a> -->
-              <!-- / -->
-              <a href="https://pku-epic.github.io/NavFoM-Web/">Project page</a>
+              <a href="https://github.com/QwenLM/Qwen-RobotNav">Code</a>
+              /
+              <a href="https://qwen.ai/blog?id=qwen-robotnav">Blog</a>
               <p></p>
               <p>
-                We introduce a cross-embodiment and cross-task Navigation Foundation Model (NavFoM), trained on eight million navigation samples that encompass quadrupeds, drones, wheeled robots, and vehicles, and spanning diverse tasks such as vision-and-language navigation, object searching, target tracking, and autonomous driving.
+                Qwen-RobotNav is a scalable navigation model with a configurable observation protocol, unifying instruction following, point- and object-goal navigation, target tracking, autonomous driving, and embodied question answering in an agentic navigation system.
               </p>
             </td>
           </tr>
 
 
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="publication-visual publication-visual--stack">
+                <img class="publication-image" src="images/qwen_robotmanip/teaser.png" alt="Qwen-RobotManip teaser" loading="lazy">
+                <img class="publication-image" src="images/qwen_robotmanip/results.png" alt="Qwen-RobotManip long-horizon manipulation results" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://qwen.ai/blog?id=qwen-robotmanip">
+                <papertitle>Qwen-RobotManip Technical Report: Alignment Unlocks Scale for Robotic Manipulation Foundation Models</papertitle>
+              </a>
+              <br>
+              <a class="author-link" href="https://yhqpkueecs.github.io/">Haoqi Yuan</a>*, <a class="author-link" href="https://liang-zx.github.io/">Zhixuan Liang</a>*, Anzhe Chen*, Ye Wang*, Haoyang Li*, Pei Lin*, Yiyang Huang*, Zixing Lei*, <a class="author-link" href="https://tongzhangthu.github.io/">Tong Zhang</a>*, <b style="font-weight: bold;">Jiazhao Zhang</b>, Jie Zhang, Jingyang Fan, <a class="author-link" href="https://gengzezhou.github.io/">Gengze Zhou</a>, <a class="author-link" href="https://pqh22.github.io/">Qihang Peng</a>, Chenxu Lv, Xiaoyue Chen, An Yang, Fei Huang, Junyang Lin, <a class="author-link" href="https://liudayiheng.github.io/">Dayiheng Liu</a>, Jingren Zhou, <a class="author-link" href="https://chenfei-wu.github.io/">Chenfei Wu</a>, <a class="author-link" href="https://xionghuichen.github.io/">Xiong-Hui Chen</a>
+              <br>
+              <em><b style="font-weight: bold;">Technical Report, 2026</b></em>
+              <br>
+              <a href="https://arxiv.org/abs/2606.17846">Paper</a>
+              /
+              <a href="https://github.com/QwenLM/Qwen-RobotManip">Code</a>
+              /
+              <a href="https://qwen.ai/blog?id=qwen-robotmanip">Blog</a>
+              <p></p>
+              <p>
+                Qwen-RobotManip is a generalizable VLA foundation model that aligns heterogeneous manipulation data across representation, motion, and behavior, enabling large-scale cross-embodiment training and strong out-of-distribution generalization.
+              </p>
+            </td>
+          </tr>
 
 
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="publication-visual">
+                <img class="publication-image" src="images/qwen_robotworld/teaser.png" alt="Qwen-RobotWorld teaser" loading="lazy">
+                <img class="publication-image" src="images/qwen_robotworld/results.png" alt="Qwen-RobotWorld results" loading="lazy">
 
 
-          <tr onmouseout="trackvla_plus_plus_stop()" onmouseover="trackvla_plus_plus_start()" >
+              </div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://qwen.ai/blog?id=qwen-robotworld">
+                <papertitle>Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation</papertitle>
+              </a>
+              <br>
+              Jie Zhang*, Xiaoyue Chen*, Anzhe Chen, Chenxu Lv, Deqing Li, <a class="author-link" href="https://gengzezhou.github.io/">Gengze Zhou</a>, Hang Yin, <a class="author-link" href="https://yhqpkueecs.github.io/">Haoqi Yuan</a>, Haoyang Li, Jiahao Li, <b style="font-weight: bold;">Jiazhao Zhang</b>, Jingren Zhou, Kaiyuan Gao, Kun Yan, Lihan Jiang, Ningyuan Tang, Pei Lin, <a class="author-link" href="https://pqh22.github.io/">Qihang Peng</a>, Shengming Yin, <a class="author-link" href="https://tianhewu.github.io/tianhe-page/">Tianhe Wu</a>, <a class="author-link" href="https://yanty123.github.io/">Tianyi Yan</a>, Xiao Xu, Yan Shu, Yanran Zhang, Ye Wang, Yi Wang, Yilei Chen, Yixian Xu, Yiyang Huang, Yuxiang Chen, Zekai Zhang, Zhendong Wang, Zhixing Lei, <a class="author-link" href="https://liang-zx.github.io/">Zhixuan Liang</a>, Zihao Liu, <a class="author-link" href="https://klayand.github.io/">Zikai Zhou</a>, <a class="author-link" href="https://xionghuichen.github.io/">Xiong-Hui Chen</a>, <a class="author-link" href="https://chenfei-wu.github.io/">Chenfei Wu</a>
+              <br>
+              <em><b style="font-weight: bold;">Technical Report, 2026</b></em>
+              <br>
+              <a href="https://arxiv.org/abs/2606.17030">Paper</a>
+              /
+              <a href="https://qwen.ai/blog?id=qwen-robotworld">Blog</a>
+              <p></p>
+              <p>
+                Qwen-RobotWorld is a language-conditioned video world model that predicts physically grounded futures across manipulation, autonomous driving, indoor navigation, and human-to-robot transfer through a unified natural-language action interface.
+              </p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="publication-visual">
+                <img class="publication-image" src="images/qwen_vla/qwen_vla.png" alt="Qwen-VLA overview" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://qwen.ai/blog?id=qwenvla">
+                <papertitle>Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments</papertitle>
+              </a>
+              <br>
+              Qiuyue Wang*, <a class="author-link" href="https://msheng-lee.github.io/">Mingsheng Li</a>*, <a class="author-link" href="https://jianguanthu.github.io/">Jian Guan</a>*, <a class="author-link" href="https://jhuiye.com/">Jinhui Ye</a>, Sicheng Xie, <a class="author-link" href="https://yitaoliu17.com/">Yitao Liu</a>, <a class="author-link" href="https://junhaoo-chen.github.io/">Junhao Chen</a>, <a class="author-link" href="https://liang-zx.github.io/">Zhixuan Liang</a>, Jie Zhang, <a class="author-link" href="https://ericsxt.github.io/">Xintong Hu</a>, <a class="author-link" href="https://csgeekhuang.github.io/">Xuhong Huang</a>, Pei Lin, Junyang Lin, <a class="author-link" href="https://liudayiheng.github.io/">Dayiheng Liu</a>, Shuai Bai, Jingren Zhou, <b style="font-weight: bold;">Jiazhao Zhang</b>, <a class="author-link" href="https://yhqpkueecs.github.io/">Haoqi Yuan</a>, <a class="author-link" href="https://gengzezhou.github.io/">Gengze Zhou</a>, Hang Yin, Ye Wang, Yiyang Huang, Zixing Lei, <a class="author-link" href="https://wjpoom.github.io/">Wujian Peng</a>, <a class="author-link" href="https://chendl02.github.io/">Delin Chen</a>, <a class="author-link" href="https://8zym.github.io/">Yingming Zheng</a>, Jingyang Fan, Xianwei Zhuang, Xin Zhou, Haoyang Li, Anzhe Chen, <a class="author-link" href="https://tongzhangthu.github.io/">Tong Zhang</a>, Xuejing Liu, Yuchong Sun, Ruizhe Chen, Zhaohai Li, Chenxu Lü, Zhibo Yang, <a class="author-link" href="https://taoyds.github.io/">Tao Yu</a>, <a class="author-link" href="https://xionghuichen.github.io/">Xionghui Chen</a>
+              <br>
+              <em><b style="font-weight: bold;">Technical Report, 2026</b></em>
+              <br>
+              <a href="https://arxiv.org/abs/2605.30280">Paper</a>
+              /
+              <a href="https://github.com/QwenLM/Qwen-VLA">Code</a>
+              /
+              <a href="https://qwen.ai/blog?id=qwenvla">Blog</a>
+              <p></p>
+              <p>
+                Qwen-VLA is a unified embodied foundation model that casts manipulation, navigation, and trajectory prediction into a shared action-and-trajectory prediction framework, with one model operating across tasks and robot embodiments.
+              </p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="mm_nav_stop()" onmouseover="mm_nav_start()" >
             <td style="padding:20px;width:30%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='trackvla_plus_plus_image'>
-                <img src="images/trackvla++/trackvla++.gif" width="230" height="165">
+                <div class="two" id='mm_nav_image'>
+                <img src="images/mm_nav/mm_nav.gif" width="230" height="165">
                 </div>
-                <img src='images/trackvla++/trackvla++.png' width="230" height="165">
+                <img src='images/mm_nav/mm_nav.png' width="230" height="165">
               </div>
               <script type="text/javascript">
-                function trackvla_plus_plus_start() {
-                  document.getElementById('trackvla_plus_plus_image').style.opacity = "1";
+                function mm_nav_start() {
+                  document.getElementById('mm_nav_image').style.opacity = "1";
                 }
-                function trackvla_plus_plus_stop() {
-                  document.getElementById('trackvla_plus_plus_image').style.opacity = "0";
+                function mm_nav_stop() {
+                  document.getElementById('mm_nav_image').style.opacity = "0";
                 }
-                trackvla_plus_plus_stop()
+                mm_nav_stop()
               </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <a href="https://pku-epic.github.io/TrackVLA-plus-plus-Web/">
-              <papertitle>TrackVLA++: Unleashing Reasoning and Memory Capabilities in VLA Models for Embodied Visual Tracking</papertitle>
+              <a href="https://pku-epic.github.io/MM-Nav-Web/">
+              <papertitle>MM-Nav: Multi-View VLA Model for Robust Visual Navigation via Multi-Expert Learning</papertitle>
               </a>
               <br>
-                Jiahang Liu*, Yunpeng Qi*, <b style="font-weight: bold;">Jiazhao Zhang*</b>, Minghan Li, Shaoan Wang, Kui Wu, Hanjing Ye, Hong Zhang, Zhibo Chen, Fangwei Zhong, Zhizheng Zhang†, He Wang†
+                <a class="author-link" href="https://tranxray.github.io/">Tianyu Xu</a>*, <a class="author-link" href="https://github.com/187370">Jiawei Chen</a>*, <b style="font-weight: bold;">Jiazhao Zhang*</b>, <a class="author-link" href="https://zhangwenyao1.github.io/">Wenyao Zhang</a>, <a class="author-link" href="https://qizekun.github.io/">Zekun Qi</a>, <a class="author-link" href="https://github.com/lpercc">Minghan Li</a>, <a class="author-link" href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&amp;hl=en">Zhizheng Zhang</a>†, <a class="author-link" href="https://hughw19.github.io/">He Wang</a>†
               <br>
-              <em><b style="font-weight: bold;">ICRA 2026</b></em>
+              <em><b style="font-weight: bold;">ECCV 2026</b></em>
               <br>
-              <a href="https://arxiv.org/pdf/2510.07134">Paper</a>
+              <a href="https://arxiv.org/pdf/2510.03142">Paper</a>
               /
               <!-- <a href="https://github.com/wsakobe/TrackVLA">Code</a> -->
               <!-- / -->
-              <a href="https://pku-epic.github.io/TrackVLA-plus-plus-Web/">Project page</a>
+              <a href="https://pku-epic.github.io/MM-Nav-Web/">Blog</a>
               <p></p>
               <p>
-                TrackVLA++ is a novel Vision-Language-Action model that incorporates spatial reasoning and target identification memory, enabling superior performance in both long-horizon and highly crowded tracking scenarios.
+                We present MM-Nav, a multi-view Vision-Language-Action (VLA) system with 360° observation, built upon pretrained large language models and visual foundation models. The model is trained on large-scale expert navigation data collected from three reinforcement learning (RL) agents.
+              </p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="publication-visual">
+                <img class="publication-image" src="images/habitat_gs/teaser.png" alt="Habitat-GS high-fidelity simulation teaser" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://zju3dv.github.io/habitat-gs/">
+                <papertitle>Habitat-GS: A High-Fidelity Navigation Simulator with Dynamic Gaussian Splatting</papertitle>
+              </a>
+              <br>
+              <a class="author-link" href="https://ziyuan-xia.com">Ziyuan Xia</a>, <a class="author-link" href="https://github.com/echo636">Jingyi Xu</a>, <a class="author-link" href="https://github.com/Kinchite17">Chong Cui</a>, <a class="author-link" href="https://yuanhongyu.xyz">Yuanhong Yu</a>, <b style="font-weight: bold;">Jiazhao Zhang</b>, <a class="author-link" href="https://yanqswhu.top">Qingsong Yan</a>, <a class="author-link" href="https://orcid.org/0000-0002-8676-6546">Tao Ni</a>, <a class="author-link" href="https://scholar.google.com/citations?user=4YOIYGwAAAAJ&amp;hl=en">Junbo Chen</a>, <a class="author-link" href="https://xzhou.me">Xiaowei Zhou</a>, <a class="author-link" href="http://www.cad.zju.edu.cn/home/bao/">Hujun Bao</a>, <a class="author-link" href="https://csse.szu.edu.cn/staff/ruizhenhu/">Ruizhen Hu</a>, <a class="author-link" href="https://pengsida.net">Sida Peng</a>†
+              <br>
+              <em><b style="font-weight: bold;">ECCV 2026</b></em>
+              <br>
+              <a href="https://arxiv.org/abs/2604.12626">Paper</a>
+              /
+              <a href="https://github.com/zju3dv/habitat-gs">Code</a>
+              /
+              <a href="https://zju3dv.github.io/habitat-gs/">Blog</a>
+              <p></p>
+              <p>
+                Habitat-GS extends Habitat-Sim with real-time 3D Gaussian Splatting scene rendering and drivable Gaussian avatars, providing photorealistic, dynamic, and Habitat-compatible environments for embodied navigation.
+              </p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="publication-visual publication-visual--stack">
+                <img class="publication-image" src="images/lda_1b/lda_1b.png" alt="LDA-1B data, model, and capability overview" loading="lazy">
+                <img class="publication-image" src="images/lda_1b/lda_pipeline.png" alt="LDA-1B model architecture" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://pku-epic.github.io/LDA/">
+                <papertitle>LDA-1B: Scaling Latent Dynamics Action Model via Universal Embodied Data Ingestion</papertitle>
+              </a>
+              <br>
+              <a class="author-link" href="https://jiangranlv.github.io/">Jiangran Lyu</a>*, Kai Liu*, <a class="author-link" href="https://catburgg.github.io">Xuheng Zhang</a>*, <a class="author-link" href="https://liaohr9.github.io">Haoran Liao</a>, <a class="author-link" href="https://wangchek.github.io/">Yusen Feng</a>, <a class="author-link" href="https://lgswdn.github.io/home/">Wenxuan Zhu</a>, Tingrui Shen, <a class="author-link" href="https://jychen18.github.io/">Jiayi Chen</a>, <b style="font-weight: bold;">Jiazhao Zhang</b>, Yifei Dong, <a class="author-link" href="https://cwb0106.github.io/">Wenbo Cui</a>, Senmao Qi, Shuo Wang, Yixin Zheng, <a class="author-link" href="https://miyandoris.github.io/">Mi Yan</a>, <a class="author-link" href="https://scholar.google.com/citations?user=wRBbtl8AAAAJ&amp;hl=en">Xuesong Shi</a>, <a class="author-link" href="https://ia.cas.cn/rcdw/fyjy/202404/t20240422_7129926.html">Haoran Li</a>, <a class="author-link" href="https://people.ucas.ac.cn/~zhaodongbin?language=en">Dongbin Zhao</a>, <a class="author-link" href="https://mingyuliu.net/">Ming-Yu Liu</a>, <a class="author-link" href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&amp;hl=en">Zhizheng Zhang</a>†, <a class="author-link" href="https://ericyi.github.io/">Li Yi</a>†, <a class="author-link" href="https://cfcs.pku.edu.cn/english/people/faculty/yizhouwang/index.htm">Yizhou Wang</a>†, <a class="author-link" href="https://hughw19.github.io/">He Wang</a>†
+              <br>
+              <em><b style="font-weight: bold;">RSS 2026</b></em>
+              <br>
+              <a href="https://arxiv.org/abs/2602.12215">Paper</a>
+              /
+              <a href="https://github.com/jiangranlv/LDA-1B">Code</a>
+              /
+              <a href="https://pku-epic.github.io/LDA/">Blog</a>
+              <p></p>
+              <p>
+                LDA-1B is a dynamics-centric robot foundation model trained on more than 30,000 hours of heterogeneous embodied data, jointly learning latent dynamics, visual forecasting, and policy in a unified framework.
               </p>
             </td>
           </tr>
@@ -261,7 +389,7 @@
               <papertitle>UrbanVLA: A Vision-Language-Action Model for Urban Micromobility</papertitle>
               </a>
               <br>
-                Anqi Li*, Zhiyong Wang*, <b style="font-weight: bold;">Jiazhao Zhang*</b>, Minghan Li, Zhibo Chen, Zhizheng Zhang†, He Wang†
+                <a class="author-link" href="https://andyhandsom6.github.io/">Anqi Li</a>*, <a class="author-link" href="https://github.com/Yeah2333/">Zhiyong Wang</a>*, <b style="font-weight: bold;">Jiazhao Zhang*</b>, <a class="author-link" href="https://github.com/lpercc">Minghan Li</a>, <a class="author-link" href="https://faculty.ustc.edu.cn/chenzhibo/">Zhibo Chen</a>, <a class="author-link" href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&amp;hl=en">Zhizheng Zhang</a>†, <a class="author-link" href="https://hughw19.github.io/">He Wang</a>†
               <br>
               <em><b style="font-weight: bold;">ICRA 2026</b></em>
               <br>
@@ -269,7 +397,7 @@
               /
               <!-- <a href="https://github.com/wsakobe/TrackVLA">Code</a> -->
               <!-- / -->
-              <a href="https://pku-epic.github.io/UrbanVLA-Web/">Project page</a>
+              <a href="https://pku-epic.github.io/UrbanVLA-Web/">Blog</a>
               <p></p>
               <p>
                 UrbanVLA is a route-conditioned Vision-Language-Action model for urban micromobility. It aligns noisy navigation-tool routes with visual observations to enable scalable, long-horizon navigation. Trained via a two stage pipeline including SFT and RFT, UrbanVLA outperforms baselines by over 55% on MetaUrban and achieves robust real-world navigation across 500m+ routes.
@@ -278,52 +406,140 @@
           </tr>
 
 
-
-
-          <tr onmouseout="mm_nav_stop()" onmouseover="mm_nav_start()" >
+          <tr onmouseout="trackvla_plus_plus_stop()" onmouseover="trackvla_plus_plus_start()" >
             <td style="padding:20px;width:30%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='mm_nav_image'>
-                <img src="images/mm_nav/mm_nav.gif" width="230" height="165">
+                <div class="two" id='trackvla_plus_plus_image'>
+                <img src="images/trackvla++/trackvla++.gif" width="230" height="165">
                 </div>
-                <img src='images/mm_nav/mm_nav.png' width="230" height="165">
+                <img src='images/trackvla++/trackvla++.png' width="230" height="165">
               </div>
               <script type="text/javascript">
-                function mm_nav_start() {
-                  document.getElementById('mm_nav_image').style.opacity = "1";
+                function trackvla_plus_plus_start() {
+                  document.getElementById('trackvla_plus_plus_image').style.opacity = "1";
                 }
-                function mm_nav_stop() {
-                  document.getElementById('mm_nav_image').style.opacity = "0";
+                function trackvla_plus_plus_stop() {
+                  document.getElementById('trackvla_plus_plus_image').style.opacity = "0";
                 }
-                mm_nav_stop()
+                trackvla_plus_plus_stop()
               </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <a href="https://pku-epic.github.io/MM-Nav-Web/">
-              <papertitle>MM-Nav: Multi-View VLA Model for Robust Visual Navigation via Multi-Expert Learning</papertitle>
+              <a href="https://pku-epic.github.io/TrackVLA-plus-plus-Web/">
+              <papertitle>TrackVLA++: Unleashing Reasoning and Memory Capabilities in VLA Models for Embodied Visual Tracking</papertitle>
               </a>
               <br>
-                Tianyu Xu*, Jiawei Chen*, <b style="font-weight: bold;">Jiazhao Zhang*</b>, Wenyao Zhang, Zekun Qi, Minghan Li, Zhizheng Zhang†, He Wang†
+                <a class="author-link" href="https://2003jiahang.github.io/">Jiahang Liu</a>*, <a class="author-link" href="https://github.com/moonsbird29/">Yunpeng Qi</a>*, <b style="font-weight: bold;">Jiazhao Zhang*</b>, <a class="author-link" href="https://github.com/lpercc">Minghan Li</a>, <a class="author-link" href="https://wsakobe.github.io/">Shaoan Wang</a>, Kui Wu, <a class="author-link" href="https://medlartea.github.io/">Hanjing Ye</a>, Hong Zhang, <a class="author-link" href="https://faculty.ustc.edu.cn/chenzhibo/">Zhibo Chen</a>, <a class="author-link" href="https://fangweizhong.xyz/">Fangwei Zhong</a>, <a class="author-link" href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&amp;hl=en">Zhizheng Zhang</a>†, <a class="author-link" href="https://hughw19.github.io/">He Wang</a>†
               <br>
-              <em><b style="font-weight: bold;">Arxiv Preprint</b></em>
+              <em><b style="font-weight: bold;">ICRA 2026</b></em>
               <br>
-              <a href="https://arxiv.org/pdf/2510.03142">Paper</a>
+              <a href="https://arxiv.org/pdf/2510.07134">Paper</a>
               /
               <!-- <a href="https://github.com/wsakobe/TrackVLA">Code</a> -->
               <!-- / -->
-              <a href="https://pku-epic.github.io/MM-Nav-Web/">Project page</a>
+              <a href="https://pku-epic.github.io/TrackVLA-plus-plus-Web/">Blog</a>
               <p></p>
               <p>
-                We present MM-Nav, a multi-view Vision-Language-Action (VLA) system with 360° observation, built upon pretrained large language models and visual foundation models. The model is trained on large-scale expert navigation data collected from three reinforcement learning (RL) agents. 
+                TrackVLA++ is a novel Vision-Language-Action model that incorporates spatial reasoning and target identification memory, enabling superior performance in both long-horizon and highly crowded tracking scenarios.
               </p>
             </td>
           </tr>
 
 
+          <tr onmouseout="navfom_stop()" onmouseover="navfom_start()" >
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='navfom_image'>
+                <img src="images/navfom/navfom.gif" width="230" height="165">
+                </div>
+                <img src='images/navfom/navfom.png' width="230" height="165">
+              </div>
+              <script type="text/javascript">
+                function navfom_start() {
+                  document.getElementById('navfom_image').style.opacity = "1";
+                }
+                function navfom_stop() {
+                  document.getElementById('navfom_image').style.opacity = "0";
+                }
+                navfom_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://pku-epic.github.io/NavFoM-Web/">
+              <papertitle>Embodied Navigation Foundation Model</papertitle>
+              </a>
+              <br>
+                <b style="font-weight: bold;">Jiazhao Zhang*</b>, <a class="author-link" href="https://andyhandsom6.github.io/">Anqi Li</a>*, <a class="author-link" href="https://github.com/moonsbird29/">Yunpeng Qi</a>*, <a class="author-link" href="https://github.com/lpercc">Minghan Li</a>*, <a class="author-link" href="https://2003jiahang.github.io/">Jiahang Liu</a>, <a class="author-link" href="https://wsakobe.github.io/">Shaoan Wang</a>, <a class="author-link" href="https://openreview.net/profile?id=~Haoran_Liu4">Haoran Liu</a>, <a class="author-link" href="https://gengzezhou.github.io/">Gengze Zhou</a>, Yuze Wu, <a class="author-link" href="https://github.com/LXX3123/">Xingxing Li</a>, Yuxin Fan, Wenjun Li, <a class="author-link" href="https://faculty.ustc.edu.cn/chenzhibo/">Zhibo Chen</a>, <a class="author-link" href="https://feigao-robotics.com/">Fei Gao</a>, Qi Wu, <a class="author-link" href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&amp;hl=en">Zhizheng Zhang</a>†, <a class="author-link" href="https://hughw19.github.io/">He Wang</a>†
+              <br>
+              <em><b style="font-weight: bold;">ICLR 2026</b></em>
+              <br>
+              <a href="https://arxiv.org/abs/2509.12129">Paper</a>
+              /
+              <!-- <a href="https://github.com/wsakobe/TrackVLA">Code</a> -->
+              <!-- / -->
+              <a href="https://pku-epic.github.io/NavFoM-Web/">Blog</a>
+              <p></p>
+              <p>
+                We introduce a cross-embodiment and cross-task Navigation Foundation Model (NavFoM), trained on eight million navigation samples that encompass quadrupeds, drones, wheeled robots, and vehicles, and spanning diverse tasks such as vision-and-language navigation, object searching, target tracking, and autonomous driving.
+              </p>
+            </td>
+          </tr>
 
 
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="publication-visual">
+                <img class="publication-image" src="images/octonav/octonav.jpg" alt="OctoNav overview" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://buaa-colalab.github.io/OctoNav/">
+                <papertitle>OctoNav: Towards Generalist Embodied Navigation</papertitle>
+              </a>
+              <br>
+              <a class="author-link" href="https://chengaopro.github.io/">Chen Gao</a>*, Liankai Jin*, Xingyu Peng*, <b style="font-weight: bold;">Jiazhao Zhang</b>, Yue Deng, Annan Li†, <a class="author-link" href="https://hughw19.github.io/">He Wang</a>, <a class="author-link" href="https://scholar.google.com/citations?hl=zh-CN&amp;user=-QtVtNEAAAAJ">Si Liu</a>†
+              <br>
+              <em><b style="font-weight: bold;">CVPR 2026</b></em>
+              <br>
+              <a href="https://arxiv.org/abs/2506.09839">Paper</a>
+              /
+              <a href="https://github.com/buaa-colalab/OctoNav-R1">Code</a>
+              /
+              <a href="https://buaa-colalab.github.io/OctoNav/">Blog</a>
+              <p></p>
+              <p>
+                OctoNav introduces a generalist embodied navigation benchmark and VLA model for following free-form instructions that can combine arbitrary modalities and navigation capabilities.
+              </p>
+            </td>
+          </tr>
 
 
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="publication-visual">
+                <img class="publication-image publication-image--dark" src="images/dreamvla/teaser.png" alt="DreamVLA paradigm teaser" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://zhangwenyao1.github.io/DreamVLA/">
+                <papertitle>DreamVLA: A Vision-Language-Action Model Dreamed with Comprehensive World Knowledge</papertitle>
+              </a>
+              <br>
+              <a class="author-link" href="https://zhangwenyao1.github.io/">Wenyao Zhang</a>*, <a class="author-link" href="https://ericliuhhh.github.io/">Hongsi Liu</a>*, <a class="author-link" href="https://qizekun.github.io/">Zekun Qi</a>*, <a class="author-link" href="https://wangyunnan.github.io/">Yunnan Wang</a>*, Xinqiang Yu, <b style="font-weight: bold;">Jiazhao Zhang</b>, <a class="author-link" href="https://runpeidong.web.illinois.edu/">Runpei Dong</a>, <a class="author-link" href="https://jiaweihe.com/">Jiawei He</a>, Fan Lu, <a class="author-link" href="https://hughw19.github.io/">He Wang</a>, <a class="author-link" href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&amp;hl=en">Zhizheng Zhang</a>, <a class="author-link" href="https://ericyi.github.io/">Li Yi</a>, <a class="author-link" href="https://www.eitech.edu.cn/?p=leader-Wenjun%20Zeng&amp;tid=19&amp;lang=en">Wenjun Zeng</a>, <a class="author-link" href="http://home.ustc.edu.cn/~jinxustc/">Xin Jin</a>
+              <br>
+              <em><b style="font-weight: bold;">NeurIPS 2025</b></em>
+              <br>
+              <a href="https://arxiv.org/abs/2507.04447">Paper</a>
+              /
+              <a href="https://github.com/Zhangwenyao1/DreamVLA">Code</a>
+              /
+              <a href="https://zhangwenyao1.github.io/DreamVLA/">Blog</a>
+              <p></p>
+              <p>
+                DreamVLA forecasts compact dynamic, spatial, and semantic world knowledge to form a perception-prediction-action loop for robotic manipulation, improving both reasoning and action generation.
+              </p>
+            </td>
+          </tr>
 
 
           <tr onmouseout="trackvla_stop()" onmouseover="trackvla_start()" >
@@ -349,8 +565,8 @@
               <papertitle>TrackVLA: Embodied Visual Tracking in the Wild</papertitle>
               </a>
               <br>
-              <em>Shaoan Wang*, <b style="font-weight: bold;">Jiazhao Zhang*</b></em>, Minghan Li, Jiahang Liu
-              , Anqi Li, Kui Wu, Fangwei Zhong, Junzhi Yu, Zhizheng Zhang<sup>†</sup>, He Wang<sup>†</sup>
+              <em><a class="author-link" href="https://wsakobe.github.io/">Shaoan Wang</a>*, <b style="font-weight: bold;">Jiazhao Zhang*</b></em>, <a class="author-link" href="https://github.com/lpercc">Minghan Li</a>, <a class="author-link" href="https://2003jiahang.github.io/">Jiahang Liu</a>
+              , <a class="author-link" href="https://andyhandsom6.github.io/">Anqi Li</a>, Kui Wu, <a class="author-link" href="https://fangweizhong.xyz/">Fangwei Zhong</a>, Junzhi Yu, <a class="author-link" href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&amp;hl=en">Zhizheng Zhang</a><sup>†</sup>, <a class="author-link" href="https://hughw19.github.io/">He Wang</a><sup>†</sup>
               <br>
               <em><b style="font-weight: bold;">CoRL 2025</b></em>
               <br>
@@ -358,7 +574,7 @@
               /
               <a href="https://github.com/wsakobe/TrackVLA">Code</a>
               /
-              <a href="https://pku-epic.github.io/TrackVLA-web/">Project page</a>
+              <a href="https://pku-epic.github.io/TrackVLA-web/">Blog</a>
               <p></p>
               <p>
                 TrackVLA is a vision-language-action model capable of simultaneous object recognition and visual tracking, trained on a dataset of 1.7 million samples. It demonstrates robust tracking, long-horizon tracking, and cross-domain generalization across diverse challenging environments.
@@ -367,45 +583,30 @@
           </tr>
 
 
-
-          <tr onmouseout="uni_navid_stop()" onmouseover="uni_navid_start()" >
+          <tr>
             <td style="padding:20px;width:30%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='uni_navid_image'>
-                <img src="images/uni_navid/uni_navid.gif" width="230" height="165">
-                </div>
-                <img src='images/uni_navid/uni_navid.png' width="230" height="165">
+              <div class="publication-visual publication-visual--stack">
+                <img class="publication-image" src="images/ladi_wm/ladi_wm.png" alt="LaDi-WM predictive policy refinement" loading="lazy">
+                <img class="publication-image" src="images/ladi_wm/ladi_wm_pipeline.png" alt="LaDi-WM world-model and policy pipeline" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function uni_navid_start() {
-                  document.getElementById('uni_navid_image').style.opacity = "1";
-                }
-                function uni_navid_stop() {
-                  document.getElementById('uni_navid_image').style.opacity = "0";
-                }
-                uni_navid_stop()
-              </script>
             </td>
             <td style="padding:20px;width:70%;vertical-align:middle">
-              <a href="https://pku-epic.github.io/Uni-NaVid/">
-              <papertitle>Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks</papertitle>
+              <a href="https://guhuangai.github.io/LaDiWM.github.io/">
+                <papertitle>LaDi-WM: A Latent Diffusion-Based World Model for Predictive Manipulation</papertitle>
               </a>
               <br>
-              <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>,       Kunyu Wang      ,Shaoan Wang       ,Minghan Li      ,Haoran Liu
-              ,Songlin Wei, Zhongyuan Wang    ,Zhizheng Zhang<sup>†</sup>      ,He Wang<sup>†</sup>
-
-
+              <a class="author-link" href="https://scholar.google.com/citations?hl=en&amp;user=OAULSygAAAAJ">Yuhang Huang</a>, <b style="font-weight: bold;">Jiazhao Zhang</b>, <a class="author-link" href="https://zoushilong1024.github.io/">Shilong Zou</a>, <a class="author-link" href="https://xinwangliu.github.io/">Xinwang Liu</a>, <a class="author-link" href="https://csse.szu.edu.cn/staff/ruizhenhu/">Ruizhen Hu</a>†, <a class="author-link" href="https://kevinkaixu.net/">Kai Xu</a>†
               <br>
-              <em><b style="font-weight: bold;">RSS 2025</b></em>
+              <em><b style="font-weight: bold;">CoRL 2025</b></em>
               <br>
-              <a href="https://arxiv.org/pdf/2412.06224">Paper</a>
+              <a href="https://arxiv.org/abs/2505.11528">Paper</a>
               /
-              <a href="https://github.com/jzhzhang/Uni-NaVid">Code</a>
+              <a href="https://github.com/GuHuangAI/LaDiWM">Code</a>
               /
-              <a href="https://pku-epic.github.io/Uni-NaVid/">Project page</a>
+              <a href="https://guhuangai.github.io/LaDiWM.github.io/">Blog</a>
               <p></p>
               <p>
-                We present Uni-NaVid, the first video-based vision-language-action (VLA) model designed to unify diverse embodied navigation tasks and enable seamless navigation for mixed long-horizon tasks in unseen real-world environments.
+                LaDi-WM predicts future geometric and semantic latent states with diffusion modeling and uses the imagined states to guide a predictive manipulation policy in simulation and the real world.
               </p>
             </td>
           </tr>
@@ -434,7 +635,7 @@
               <papertitle>RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning</papertitle>
               </a>
               <br>
-              Haoran Geng*, Feishi Wang*, Songlin Wei*, Yuyang Li*, Bangjun Wang*, Boshi An*, Charlie Tianyue Cheng*, Haozhe Lou, Peihao Li, Yen-Jen Wang, Yutong Liang, Dylan Goetting, Chaoyi Xu, Haozhe Chen, Yuxi Qian, Yiran Geng, Jiageng Mao, Weikang Wan, Mingtong Zhang, Jiangran Lyu, Siheng Zhao, <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>, Jialiang Zhang, Chengyang Zhao, Haoran Lu, Yufei Ding, Ran Gong, Yuran Wang, Yuxuan Kuang, Ruihai Wu, Baoxiong Jia, Carlo Sferrazza, Hao Dong, Siyuan Huang, Koushil Sreenath, Yue Wang†, Jitendra Malik†, Pieter Abbeel†
+              Haoran Geng*, Feishi Wang*, <a class="author-link" href="https://songlin.github.io/">Songlin Wei</a>*, Yuyang Li*, Bangjun Wang*, Boshi An*, Charlie Tianyue Cheng*, Haozhe Lou, Peihao Li, Yen-Jen Wang, Yutong Liang, Dylan Goetting, Chaoyi Xu, Haozhe Chen, Yuxi Qian, Yiran Geng, Jiageng Mao, Weikang Wan, Mingtong Zhang, <a class="author-link" href="https://jiangranlv.github.io/">Jiangran Lyu</a>, Siheng Zhao, <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>, Jialiang Zhang, Chengyang Zhao, Haoran Lu, Yufei Ding, Ran Gong, Yuran Wang, Yuxuan Kuang, Ruihai Wu, Baoxiong Jia, Carlo Sferrazza, Hao Dong, Siyuan Huang, Koushil Sreenath, Yue Wang†, Jitendra Malik†, Pieter Abbeel†
               <br>
               <em><b style="font-weight: bold;">RSS 2025</b></em>
               <br>
@@ -442,7 +643,7 @@
               /
               <a href="https://github.com/RoboVerseOrg/RoboVerse">Code</a>
               /
-              <a href="https://roboverseorg.github.io/">Project page</a>
+              <a href="https://roboverseorg.github.io/">Blog</a>
               <p></p>
               <!-- <p>
                 We present Uni-NaVid, the first video-based vision-language-action (VLA) model designed to unify diverse embodied navigation tasks and enable seamless navigation for mixed long-horizon tasks in unseen real-world environments.
@@ -451,10 +652,105 @@
           </tr>
 
 
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="publication-visual publication-visual--stack">
+                <img class="publication-image" src="images/onlineanyseg/onlineanyseg_teaser.png" alt="OnlineAnySeg online 3D instance segmentation overview" loading="lazy">
+                <img class="publication-image" src="images/onlineanyseg/onlineanyseg_pipeline.png" alt="OnlineAnySeg reconstruction and mask-merging pipeline" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://yjtang249.github.io/OnlineAnySeg/">
+                <papertitle>OnlineAnySeg: Online Zero-Shot 3D Segmentation by Visual Foundation Model Guided 2D Mask Merging</papertitle>
+              </a>
+              <br>
+              <a class="author-link" href="https://github.com/yjtang249">Yijie Tang</a>*, <b style="font-weight: bold;">Jiazhao Zhang*</b>, Yuqing Lan, <a class="author-link" href="https://www.yulanguo.cn/">Yulan Guo</a>, Dezun Dong, <a class="author-link" href="https://www.zhuchenyang.net/">Chenyang Zhu</a>†, <a class="author-link" href="https://kevinkaixu.net/">Kai Xu</a>†
+              <br>
+              <em><b style="font-weight: bold;">CVPR 2025</b></em>
+              <br>
+              <a href="https://arxiv.org/abs/2503.01309">Paper</a>
+              /
+              <a href="https://github.com/yjtang249/OnlineAnySeg">Code</a>
+              /
+              <a href="https://yjtang249.github.io/OnlineAnySeg/">Blog</a>
+              <p></p>
+              <p>
+                OnlineAnySeg uses voxel hashing and visual-foundation-model features to merge sequential 2D masks into online zero-shot 3D instances in real time.
+              </p>
+            </td>
+          </tr>
 
 
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="publication-visual publication-visual--stack">
+                <img class="publication-image" src="images/cognav/cognav_teaser.png" alt="CogNav cognitive process modeling overview" loading="lazy">
+                <img class="publication-image" src="images/cognav/cognav.png" alt="CogNav cognitive navigation pipeline" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://yhancao.github.io/CogNav/">
+                <papertitle>CogNav: Cognitive Process Modeling for Object Goal Navigation with LLMs</papertitle>
+              </a>
+              <br>
+              Yihan Cao*, <b style="font-weight: bold;">Jiazhao Zhang*</b>, Zhinan Yu, Shuzhen Liu, <a class="author-link" href="https://scholar.google.cl/citations?user=DnHBAN0AAAAJ&amp;hl=zh-CN">Zheng Qin</a>, <a class="author-link" href="https://sites.google.com/site/qinzoucn/">Qin Zou</a>, <a class="author-link" href="https://scholar.google.com/citations?user=Shy1gnMAAAAJ&amp;hl=zh-CN">Bo Du</a>, <a class="author-link" href="https://kevinkaixu.net/">Kai Xu</a>†
+              <br>
+              <em><b style="font-weight: bold;">ICCV 2025</b></em>
+              <br>
+              <a href="https://arxiv.org/abs/2412.10439">Paper</a>
+              /
+              <a href="https://github.com/yhanCao/CogNav_ObjNav">Code</a>
+              /
+              <a href="https://yhancao.github.io/CogNav/">Blog</a>
+              <p></p>
+              <p>
+                CogNav models ObjectNav as an LLM-directed cognitive process over an online heterogeneous map, enabling efficient, human-like object search in unseen environments.
+              </p>
+            </td>
+          </tr>
 
 
+          <tr onmouseout="uni_navid_stop()" onmouseover="uni_navid_start()" >
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='uni_navid_image'>
+                <img src="images/uni_navid/uni_navid.gif" width="230" height="165">
+                </div>
+                <img src='images/uni_navid/uni_navid.png' width="230" height="165">
+              </div>
+              <script type="text/javascript">
+                function uni_navid_start() {
+                  document.getElementById('uni_navid_image').style.opacity = "1";
+                }
+                function uni_navid_stop() {
+                  document.getElementById('uni_navid_image').style.opacity = "0";
+                }
+                uni_navid_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://pku-epic.github.io/Uni-NaVid/">
+              <papertitle>Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks</papertitle>
+              </a>
+              <br>
+              <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>,       Kunyu Wang      ,<a class="author-link" href="https://wsakobe.github.io/">Shaoan Wang</a>       ,<a class="author-link" href="https://github.com/lpercc">Minghan Li</a>      ,<a class="author-link" href="https://openreview.net/profile?id=~Haoran_Liu4">Haoran Liu</a>
+              ,<a class="author-link" href="https://songlin.github.io/">Songlin Wei</a>, <a class="author-link" href="https://www.wangzhongyuan.com/">Zhongyuan Wang</a>    ,<a class="author-link" href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&amp;hl=en">Zhizheng Zhang</a><sup>†</sup>      ,<a class="author-link" href="https://hughw19.github.io/">He Wang</a><sup>†</sup>
+
+
+              <br>
+              <em><b style="font-weight: bold;">RSS 2025</b></em>
+              <br>
+              <a href="https://arxiv.org/pdf/2412.06224">Paper</a>
+              /
+              <a href="https://github.com/jzhzhang/Uni-NaVid">Code</a>
+              /
+              <a href="https://pku-epic.github.io/Uni-NaVid/">Blog</a>
+              <p></p>
+              <p>
+                We present Uni-NaVid, the first video-based vision-language-action (VLA) model designed to unify diverse embodied navigation tasks and enable seamless navigation for mixed long-horizon tasks in unseen real-world environments.
+              </p>
+            </td>
+          </tr>
 
 
           <tr onmouseout="navid_stop()" onmouseover="navid_start()" >
@@ -480,8 +776,8 @@
               <papertitle>NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation</papertitle>
               </a>
               <br>
-              <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>*,       Kunyu Wang*      ,Rongtao Xu*       ,Gengze Zhou       ,Yicong Hong
-              ,Xiaomeng Fang      ,Qi Wu    ,Zhizheng Zhang<sup>†</sup>      ,He Wang<sup>†</sup>
+              <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>*,       Kunyu Wang*      ,<a class="author-link" href="https://rongtao-xu.github.io/">Rongtao Xu</a>*       ,<a class="author-link" href="https://gengzezhou.github.io/">Gengze Zhou</a>       ,<a class="author-link" href="https://yiconghong.me/">Yicong Hong</a>
+              ,Xiaomeng Fang      ,Qi Wu    ,<a class="author-link" href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&amp;hl=en">Zhizheng Zhang</a><sup>†</sup>      ,<a class="author-link" href="https://hughw19.github.io/">He Wang</a><sup>†</sup>
 
 
               <br>
@@ -491,14 +787,13 @@
               /
               <a href="https://github.com/jzhzhang/NaVid-VLN-CE">Code</a>
               /
-              <a href="https://pku-epic.github.io/NaVid/">Project page</a>
+              <a href="https://pku-epic.github.io/NaVid/">Blog</a>
               <p></p>
               <p>
                 NaVid makes the first endeavour to showcase the capability of VLMs to achieve state-of-the-art level navigation performance without any maps, odometer and depth inputs. Following human instruction, NaVid only requires an on-the-fly video stream from a monocular RGB camera equipped on the robot to output the next-step action. 
               </p>
             </td>
           </tr>
-
 
 
           <tr onmouseout="open6DOR_stop()" onmouseover="open6DOR_start()" >
@@ -525,14 +820,14 @@
               </a>
               <br>
 
-              Yufei Ding*, Haoran Geng*, Chaoyi Xu, Xiaomeng Fang, <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>, Songlin Wei, Qiyu Dai, Zhizheng Zhang, He Wang<sup>†</sup>
+              Yufei Ding*, Haoran Geng*, Chaoyi Xu, Xiaomeng Fang, <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>, <a class="author-link" href="https://songlin.github.io/">Songlin Wei</a>, Qiyu Dai, <a class="author-link" href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&amp;hl=en">Zhizheng Zhang</a>, <a class="author-link" href="https://hughw19.github.io/">He Wang</a><sup>†</sup>
 
               <br>
               <em><b style="font-weight: bold;">IROS 2024</b></em>
               <br>
               <a href="https://github.com/Selina2023/Open6DOR">Code</a>
               /
-              <a href="https://pku-epic.github.io/Open6DOR/">Project page</a>
+              <a href="https://pku-epic.github.io/Open6DOR/">Blog</a>
               <p></p>
               <p>
                 We present Open6DOR, a challenging and comprehensive benchmark for open-instruction 6-DoF object rearrangement tasks. Following this, we propose a zero-shot method, Open6DORGPT, which achieves SOTA performance and proves effective in demanding simulation environments and real-world scenarios.
@@ -564,7 +859,7 @@
               <papertitle>MaskClustering: View Consensus based Mask Graph Clustering for Open-Vocabulary 3D Instance Segmentation</papertitle>
               </a>
               <br>
-              Mi Yan, <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>, Yan Zhu, He Wang<sup>†</sup>
+              <a class="author-link" href="https://miyandoris.github.io/">Mi Yan</a>, <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>, Yan Zhu, <a class="author-link" href="https://hughw19.github.io/">He Wang</a><sup>†</sup>
               <br>
               <em><b style="font-weight: bold;">CVPR 2024</b></em>
               <br>
@@ -573,14 +868,13 @@
               <a href="https://github.com/PKU-EPIC/MaskClustering">Code</a>
               /
               <!-- <a href="https://github.com/yjtang249/MIPSFusion">Code</a> -->
-              <a href="https://pku-epic.github.io/MaskClustering/">Project page</a>
+              <a href="https://pku-epic.github.io/MaskClustering/">Blog</a>
               <p></p>
               <p>
                 We propose a robust zero-shot 3D instance segmentation method that leverages the 3D view consensus of 2D candidate masks. Our method can integrate with a 2D visual foundation model (e.g., CLIP) to achieve open-vocabulary 3D instance segmentation.
               </p>
             </td>
           </tr>
-
 
 
           <tr onmouseout="icra_gamma_stop()" onmouseover="icra_gamma_start()" >
@@ -607,7 +901,7 @@
               Policy Learning based on Online Grasping Pose Fusion</papertitle>
               </a>
               <br>
-              <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>*, Nandiraju Gireesh*, Jilong Wang, Xiaomeng Fang, Chaoyi Xu,  Weiguang Chen,  Liu Dai, He Wang<sup>†</sup>
+              <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>*, Nandiraju Gireesh*, Jilong Wang, Xiaomeng Fang, Chaoyi Xu,  Weiguang Chen,  Liu Dai, <a class="author-link" href="https://hughw19.github.io/">He Wang</a><sup>†</sup>
               <br>
               <em><b style="font-weight: bold;">ICRA 2024</b></em>
               <br>
@@ -616,15 +910,13 @@
               <a href="https://github.com/user432/gamma">Code</a>
               /
               <!-- <a href="https://github.com/yjtang249/MIPSFusion">Code</a> -->
-              <a href="https://pku-epic.github.io/GAMMA/">Project page</a>
+              <a href="https://pku-epic.github.io/GAMMA/">Blog</a>
               <p></p>
               <p>
                 We propose a graspability-aware mobile manipulation approach powered by an online grasping pose fusion framework that enables a temporally consistent grasping observation.
               </p>
             </td>
           </tr>
-
-
 
 
           <tr onmouseout="siga_mips_stop()" onmouseover="siga_mips_start()" >
@@ -650,7 +942,7 @@
               <papertitle>MIPS-Fusion: Multi-Implicit-Submaps for Scalable and Robust Online Neural RGB-D Reconstruction</papertitle>
               </a>
               <br>
-              Yijie Tang*, <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>*, Zhinan Yu, He Wang, Kai Xu<sup>†</sup>
+              <a class="author-link" href="https://github.com/yjtang249">Yijie Tang</a>*, <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>*, Zhinan Yu, <a class="author-link" href="https://hughw19.github.io/">He Wang</a>, <a class="author-link" href="https://kevinkaixu.net/">Kai Xu</a><sup>†</sup>
               <br>
               <em><b style="font-weight: bold;">ACM Transactions on Graphics (SIGGRAPH Asia 2023)</b></em>
               <br>
@@ -663,8 +955,6 @@
               </p>
             </td>
           </tr>
-
-
 
 
           <tr onmouseout="cvpr_3dobjectnav_stop()" onmouseover="cvpr_3dobjectnav_start()" >
@@ -691,7 +981,7 @@
               <papertitle>3D-Aware Object Goal Navigation via Simultaneous Exploration and Identification</papertitle>
               </a>
               <br>
-              <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>* , Liu Dai*, Fanpeng Meng, Qingnan Fan, Xuelin Chen, Kai Xu, He Wang<sup>†</sup>
+              <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>* , Liu Dai*, Fanpeng Meng, Qingnan Fan, Xuelin Chen, <a class="author-link" href="https://kevinkaixu.net/">Kai Xu</a>, <a class="author-link" href="https://hughw19.github.io/">He Wang</a><sup>†</sup>
               <br>
               <em><b style="font-weight: bold;">CVPR 2023</b></em>
               <br>
@@ -701,7 +991,7 @@
               /
               <a href="https://github.com/jzhzhang/3DAwareNav">Code</a>
               /
-              <a href="https://pku-epic.github.io/3D-Aware-ObjectNav/">Project page</a>
+              <a href="https://pku-epic.github.io/3D-Aware-ObjectNav/">Blog</a>
               <p></p>
               <p>
                 We propose a framework for the challenging 3D-aware ObjectNav based on two straightforward sub-policies, namely corner-guided exploration policy and category-aware identification policy.
@@ -709,9 +999,6 @@
               </p>
             </td>
           </tr>
-
-
-
 
 
           <tr onmouseout="icra_nerfgrasp_stop()" onmouseover="icra_nerfgrasp_start()" >
@@ -739,7 +1026,7 @@
               </a>
               <br>
               <a href="https://daiqy.github.io/index.html">Qiyu Dai*</a>,
-              Yan Zhu*, Yiran Geng, Ciyu Ruan, <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>, He Wang<sup>†</sup>
+              Yan Zhu*, Yiran Geng, Ciyu Ruan, <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>, <a class="author-link" href="https://hughw19.github.io/">He Wang</a><sup>†</sup>
               <br>
               <em><b style="font-weight: bold;">ICRA 2023</b></em>
               <br>
@@ -747,16 +1034,15 @@
               <!-- / -->
               <a href="https://arxiv.org/abs/2210.06575">Paper</a>
               /
-              <a href="https://github.com/PKU-EPIC/GraspNeRF">Code & Data</a> 
+              <a href="https://github.com/PKU-EPIC/GraspNeRF">Code</a>
               /
-              <a href="https://pku-epic.github.io/GraspNeRF/">Project page</a>
+              <a href="https://pku-epic.github.io/GraspNeRF/">Blog</a>
               <p></p>
               <!-- <p>
                 To realize efficient random optimization in the 18D state space of IMU tracking, we propose to identify and sample particles from active subspace.
               </p> -->
             </td>
           </tr>
-
 
 
           <tr onmouseout="aaai_hoi_stop()" onmouseover="aaai_hoi_start()" >
@@ -799,16 +1085,15 @@
               <!-- / -->
               <a href="https://arxiv.org/abs/2209.12009">Paper</a>
               /
-              <a href="https://github.com/PKU-EPIC/HOTrack">Code & Data</a>
+              <a href="https://github.com/PKU-EPIC/HOTrack">Code</a>
               /
-              <a href="https://pku-epic.github.io/HOtrack/">Project page</a>
+              <a href="https://pku-epic.github.io/HOtrack/">Blog</a>
               <p></p>
               <!-- <p>
                 To realize efficient random optimization in the 18D state space of IMU tracking, we propose to identify and sample particles from active subspace.
               </p> -->
             </td>
           </tr>
-
 
 
           <tr onmouseout="asro_dio_stop()" onmouseover="asro_dio_start()" >
@@ -835,7 +1120,7 @@
               <papertitle>ASRO-DIO: Active Subspace Random Optimization Based Depth Inertial Odometry</papertitle>
               </a>
               <br>
-              <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>, Yijie Tang,
+              <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>, <a class="author-link" href="https://github.com/yjtang249">Yijie Tang</a>,
               <a href="https://hughw19.github.io/">He Wang</a>,
               <a href="http://kevinkaixu.net/index.html">Kai Xu<sup>†</sup></a>
               <br>
@@ -852,7 +1137,8 @@
               </p>
             </td>
           </tr>
-		  
+
+
           <tr onmouseout="rosefusion_stop()" onmouseover="rosefusion_start()" >
             <td style="padding:20px;width:30%;vertical-align:middle">
               <div class="one">
@@ -888,13 +1174,14 @@
               <!-- / -->
               <a href="https://arxiv.org/pdf/2105.05600.pdf">Paper</a>
               /
-              <a href="https://github.com/jzhzhang/ROSEFusion">Code & Data</a>
+              <a href="https://github.com/jzhzhang/ROSEFusion">Code</a>
               <p></p>
               <p>
                 We propose to tackle the difficulties of fast-motion camera tracking in the absence of inertial measurements using random optimization.
               </p>
             </td>
           </tr>
+
 
           <tr onmouseout="fconv_stop()" onmouseover="fconv_start()" >
             <td style="padding:20px;width:30%;vertical-align:middle">
@@ -931,13 +1218,14 @@
               <!-- / -->
               <a href="https://arxiv.org/pdf/2003.06233">Paper</a>
               /
-              <a href="https://github.com/jzhzhang/FusionAwareConv">Code & Data</a>
+              <a href="https://github.com/jzhzhang/FusionAwareConv">Code</a>
               <p></p>
               <p>
                 We propose a novel fusionaware 3D point convolution which operates directly on the geometric surface being reconstructed and exploits effectively the inter-frame correlation for high quality 3D feature learning.              
               </p>
             </td>
           </tr>
+
 
           <tr onmouseout="asu_pg_stop()" onmouseover="asu_pg_start()" >
             <td style="padding:20px;width:30%;vertical-align:middle">
@@ -963,7 +1251,7 @@
               <papertitle>Active Scene Understanding via Online Semantic Reconstruction</papertitle>
               </a>
               <br>
-              Lintao Zheng, Chenyang Zhu, <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>, Hang Zhao, Hui Huang, Matthias Niessner, Kai Xu<sup>†</sup>
+              Lintao Zheng, <a class="author-link" href="https://www.zhuchenyang.net/">Chenyang Zhu</a>, <em><b style="font-weight: bold;">Jiazhao Zhang</b></em>, Hang Zhao, Hui Huang, Matthias Niessner, <a class="author-link" href="https://kevinkaixu.net/">Kai Xu</a><sup>†</sup>
               <br>
               <em><b style="font-weight: bold;">Computer Graphics Forum (Pacific Graphics 2019)</b></em>
               <br>
@@ -975,13 +1263,7 @@
                 We propose a novel approach to robot-operated active understanding of unknown indoor scenes, based on online RGBD reconstruction with semantic segmentation.            
               </p>
             </td>
-          </tr>
-
-
-
-    
-
-        </tbody></table>
+          </tr>        </tbody></table>
 
 				
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
@@ -998,7 +1280,7 @@
 
             <td width="75%" valign="center">
               Conference Reviewer: RSS, ICCV, NeurIPS, CVPR, ICLR, CoRL, ICRA, IROS <br>
-              Journal Reviewer: TPAMI, TIP, RA-L
+              Journal Reviewer: T-RO, TPAMI, TIP, RA-L
             </td>
           </tr>
 
@@ -1016,7 +1298,7 @@
               <br>
               <p style="text-align:right;font-size:small;">
               Template adapted from <a href="https://jonbarron.info/">Jon Barron</a>.
-              <br> Last updated: April 2023
+              <br> Last updated: July 2026
               </p>
             </td>
           </tr>
